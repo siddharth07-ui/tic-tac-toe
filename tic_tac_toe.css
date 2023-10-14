@@ -1,0 +1,27 @@
+td{
+  height: 140px;
+  width: 140px;
+  text-align: center;
+  /*padding: 100px;*/
+  border: 5px solid black;
+  font-size: 80px;
+  color: blueviolet;
+}
+
+body{
+  background-color: greenyellow;
+}
+
+.jumbotron{
+  background-color: green;
+  padding-bottom: 0.7em;
+  padding-top: 0.7em;
+  text-align: center;
+  color: #b9fbc0;
+}
+
+#win_message{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
