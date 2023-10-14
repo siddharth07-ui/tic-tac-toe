@@ -1,8 +1,14 @@
 
 # Project Title
 
-This is a simple Tic Tac Toe game built using HTML, CSS, and JavaScript.
+This simple Tic Tac Toe game is built using HTML, CSS, and JavaScript.
 
+# How to play
+
+1. Git clone all files to your folder.
+2. Copy the path of the "tic_tac_toe.html" file and paste it into your browser.
+3. Once done, the game will get loaded into your browser.
+4. Now you can go ahead and play the game. Enjoy! 
 
 ## Authors
 
