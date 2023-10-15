@@ -1,7 +1,7 @@
 
 # Project Title
 
-This simple Tic Tac Toe game is built using HTML, CSS, and JavaScript.
+This website hosts multiple simple games made by using HTML, CSS, JavaScript and Django.
 
 # How to play
 
