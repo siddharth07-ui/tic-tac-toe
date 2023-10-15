@@ -6,14 +6,32 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="tic_tac_toe.css">
   </head>
-
   <body>
     <div class="container">
+
       <div class="jumbotron">
         <h1>Welcome to Tic Tac Toe!</h1>
-        
-        <button id='b' class="btn btn-success btn-lg" type="button" disabled>Restart!</button>
+      
+        <div class="container">
+          <div class="row">
+            <div id="main_pg_btn" class="col-sm-4">
+              <a href="./games_page.html">
+                <button id="back_btn" type="button" class="btn btn-secondary" style="place-content: left;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z"></path>
+                  </svg>
+                </button>
+              </a>
+            </div>
+            <div id="restart_btn" class="col-sm-8">
+              <button id='b' class="btn btn-success btn-lg" type="button" disabled>Restart!</button>
+            </div>
+          </div>
+        </div>
+
       </div>
+
+      <!-- Playing board -->
       <h3 id="win_message"></h3>
       <table align='center'>
         <tr>
@@ -31,10 +49,7 @@
           <td></td>
           <td></td>
         </tr>
-
       </table>
-
-
       <script type="text/javascript" src='tic_tact_toe.js'></script>
     </div>
   </body>
